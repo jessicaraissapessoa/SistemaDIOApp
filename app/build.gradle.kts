@@ -33,9 +33,19 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
+
+    //ViewModel:
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
+
+    //Navigation:
+    implementation("androidx.navigation:navigation-fragment-ktx:2.7.7")
+    implementation("androidx.navigation:navigation-ui-ktx:2.7.7")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
