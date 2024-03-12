@@ -11,8 +11,8 @@
             android:id="@+id/action_menuInicioFragment_to_listaUsuariosFragment"
             app:destination="@id/listaUsuariosFragment" />
         <action
-            android:id="@+id/action_menuInicioFragment_to_listaConteudosFragment2"
-            app:destination="@id/listaConteudosFragment2" />
+            android:id="@+id/action_menuInicioFragment_to_listaConteudosFragment"
+            app:destination="@id/listaConteudosFragment" />
         <action
             android:id="@+id/action_menuInicioFragment_to_listaFormacoesFragment"
             app:destination="@id/listaFormacoesFragment" />
@@ -22,21 +22,21 @@
         android:name="br.com.jessicaraissapessoa.sistemadioapp.ui.fragments.ListaUsuariosFragment"
         android:label="ListaUsuariosFragment" >
         <action
-            android:id="@+id/action_listaUsuariosFragment_to_exibicaoUsuarioFragment2"
-            app:destination="@id/exibicaoUsuarioFragment2" />
+            android:id="@+id/action_listaUsuariosFragment_to_exibicaoUsuarioFragment"
+            app:destination="@id/exibicaoUsuarioFragment" />
         <action
             android:id="@+id/action_listaUsuariosFragment_to_edicaoUsuarioFragment"
             app:destination="@id/edicaoUsuarioFragment" />
     </fragment>
     <fragment
-        android:id="@+id/listaConteudosFragment2"
+        android:id="@+id/listaConteudosFragment"
         android:name="br.com.jessicaraissapessoa.sistemadioapp.ui.fragments.ListaConteudosFragment"
         android:label="ListaConteudosFragment" >
         <action
-            android:id="@+id/action_listaConteudosFragment2_to_exibicaoConteudoFragment2"
-            app:destination="@id/exibicaoConteudoFragment2" />
+            android:id="@+id/action_listaConteudosFragment_to_exibicaoConteudoFragment"
+            app:destination="@id/exibicaoConteudoFragment" />
         <action
-            android:id="@+id/action_listaConteudosFragment2_to_edicaoConteudoFragment"
+            android:id="@+id/action_listaConteudosFragment_to_edicaoConteudoFragment"
             app:destination="@id/edicaoConteudoFragment" />
     </fragment>
     <fragment
@@ -44,34 +44,34 @@
         android:name="br.com.jessicaraissapessoa.sistemadioapp.ui.fragments.ListaFormacoesFragment"
         android:label="ListaFormacoesFragment" >
         <action
-            android:id="@+id/action_listaFormacoesFragment_to_exibicaoFormacaoFragment3"
-            app:destination="@id/exibicaoFormacaoFragment3" />
+            android:id="@+id/action_listaFormacoesFragment_to_exibicaoFormacaoFragment"
+            app:destination="@id/exibicaoFormacaoFragment" />
         <action
             android:id="@+id/action_listaFormacoesFragment_to_edicaoFormacaoFragment"
             app:destination="@id/edicaoFormacaoFragment" />
     </fragment>
     <fragment
-        android:id="@+id/exibicaoUsuarioFragment2"
+        android:id="@+id/exibicaoUsuarioFragment"
         android:name="br.com.jessicaraissapessoa.sistemadioapp.ui.fragments.ExibicaoUsuarioFragment"
         android:label="ExibicaoUsuarioFragment" >
         <action
-            android:id="@+id/action_exibicaoUsuarioFragment2_to_edicaoUsuarioFragment"
+            android:id="@+id/action_exibicaoUsuarioFragment_to_edicaoUsuarioFragment"
             app:destination="@id/edicaoUsuarioFragment" />
     </fragment>
     <fragment
-        android:id="@+id/exibicaoConteudoFragment2"
+        android:id="@+id/exibicaoConteudoFragment"
         android:name="br.com.jessicaraissapessoa.sistemadioapp.ui.fragments.ExibicaoConteudoFragment"
         android:label="ExibicaoConteudoFragment" >
         <action
-            android:id="@+id/action_exibicaoConteudoFragment2_to_edicaoConteudoFragment"
+            android:id="@+id/action_exibicaoConteudoFragment_to_edicaoConteudoFragment"
             app:destination="@id/edicaoConteudoFragment" />
     </fragment>
     <fragment
-        android:id="@+id/exibicaoFormacaoFragment3"
+        android:id="@+id/exibicaoFormacaoFragment"
         android:name="br.com.jessicaraissapessoa.sistemadioapp.ui.fragments.ExibicaoFormacaoFragment"
         android:label="ExibicaoFormacaoFragment" >
         <action
-            android:id="@+id/action_exibicaoFormacaoFragment3_to_edicaoFormacaoFragment"
+            android:id="@+id/action_exibicaoFormacaoFragment_to_edicaoFormacaoFragment"
             app:destination="@id/edicaoFormacaoFragment" />
     </fragment>
     <fragment
