@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="preto">#15161B</color>
-    <color name="cinza">#424E59</color>
+    <color name="cinza_claro">#424E59</color>
+    <color name="cinza_escuro">#2E343B</color>
     <color name="branco">#FFFFFFFF</color>
     <color name="roxo">#842CBF</color>
-    <color name="verde">#09A603</color>
+    <color name="verde_claro">#00AF00</color>
+    <color name="verde_escuro">#28A745</color>
     <color name="amarelo">#E5E145</color>
     <color name="vermelho">#CC0000</color>
 </resources>
