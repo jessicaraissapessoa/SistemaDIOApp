@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="preto">#0A0A0A</color>
-    <color name="cinza">#15161B</color>
+    <color name="preto">#15161B</color>
+    <color name="cinza">#424E59</color>
     <color name="branco">#FFFFFFFF</color>
     <color name="roxo">#842CBF</color>
     <color name="verde">#09A603</color>
